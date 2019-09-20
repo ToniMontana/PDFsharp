@@ -439,7 +439,8 @@ namespace PdfSharp.Pdf.IO
                         {
                             Debug.WriteLine(ex.Message);
                             // 4STLA rethrow exception to notify caller.
-                            throw;
+                            // throw;
+
                         }
                     }
                     else
